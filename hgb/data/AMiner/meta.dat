@@ -1,0 +1,14 @@
+Node Total: Count 55783
+Node Type_0: Count 6564
+Node Type_1: Count 13329
+Node Type_2: Count 35890
+
+Node type:
+paper 0
+author 1
+reference 2
+
+Relation:
+source target edge_type
+0      1      0
+0      2      1

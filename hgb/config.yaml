@@ -1,0 +1,43 @@
+DBLP:
+  K: 5
+  emb_dim: 16
+  hidden: 64
+  input_drop: 0.4
+  dropout: 0.1
+  lr: 0.006
+  wd: 0.0
+  prop_lr: 0.002
+  prop_wd: 0.8
+
+ACM:
+  K: 5
+  emb_dim: 64
+  hidden: 256
+  input_drop: 0.85
+  dropout: 0.25
+  lr: 0.004
+  wd: 0.0
+  prop_lr: 0.05
+  prop_wd: 0.8
+
+IMDB:
+  K: 1
+  emb_dim: 128
+  hidden: 256
+  input_drop: 0.05
+  dropout: 0.7
+  lr: 0.0005
+  wd: 0.0005
+  prop_lr: 0.008
+  prop_wd: 0.0
+
+AMiner:
+  K: 5
+  emb_dim: 128
+  hidden: 32
+  input_drop: 0.2
+  dropout: 0.35
+  lr: 0.008
+  wd: 0.0005
+  prop_lr: 0.008
+  prop_wd: 0.3
