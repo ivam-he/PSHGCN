@@ -187,7 +187,7 @@ if __name__ == '__main__':
     parser.add_argument("--root", type=str, default="./data")
     parser.add_argument("--seed", type=int, default=1)
     parser.add_argument("--dev", type=int, default=0)
-    parser.add_argument("--runs", type=int, default=5)
+    parser.add_argument("--runs", type=int, default=10)
     parser.add_argument("--emb_dim", type=int, default=512)
     parser.add_argument("--hidden_x", type=int, default=1024)
     parser.add_argument("--hidden_l", type=int, default=512)
