@@ -1,0 +1,24 @@
+{
+    "node.dat": {
+        "0": "user",
+        "1": "artist",
+        "2": "tag"
+    },
+    "link.dat": {
+        "0": {
+            "start": "0",
+            "end": "1",
+            "meaning": "user-artist"
+        },
+        "1": {
+            "start": "0",
+            "end": "0",
+            "meaning": "user-user"
+        },
+        "2": {
+            "start": "1",
+            "end": "2",
+            "meaning": "artist-tag"
+        }
+    }
+}
